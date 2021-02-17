@@ -1,0 +1,10 @@
+<%- | String $server_name | -%>
+[master]
+dns_alt_names="<%= $server_name %>",puppetserver
+ 
+[main]
+certname = <%= $server_name %>
+server = <%= $server_name %>
+environment = production
+runinterval = 1h
+autosign = true
