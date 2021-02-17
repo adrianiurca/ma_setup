@@ -1,0 +1,12 @@
+{
+    "puppet_task_version": 1,
+    "supports_noop": false,
+    "description": "install puppetserver",
+    "parameters": {
+      "version": {
+        "description": "puppet version",
+        "type": "Optional[String[1]]"
+      }
+    }
+  }
+  

@@ -1,0 +1,8 @@
+<%- | String $server_name,
+      String $agent_name
+| -%>
+[main]
+certname = <%= $agent_name %>
+server = <%= $server_name %>
+environment = production
+runinterval = 1h
