@@ -1,0 +1,6 @@
+.git/
+.modules/
+.resource_types/
+.DS_Store
+/bolt-debug.log
+/inventory.yaml
